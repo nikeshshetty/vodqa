@@ -366,7 +366,6 @@ section.agenda .content {
 
 section.agenda p {
   font-size: 20px;
-  margin-top: 1em;
   color: #ddd; }
 
 section.agenda .track .topic {
@@ -578,40 +577,37 @@ section.agenda .duration-115m {
         width: 75px;
         height: 75px; } }
 
-section.contact {
-  background: #F6F6F6; }
-  section.contact .content {
-    max-width: 100%; }
-    section.contact .content h3 {
-      color: #999;
-      font-size: .75em; }
-    section.contact .content .details {
-      color: #333;
-      width: 50%;
-      float: left;
-      padding: 0 30px 20px 0;
-      box-sizing: border-box; }
-      @media all and (max-width: 768px) {
-        section.contact .content .details {
-          width: 100%; } }
-    section.contact .content .map iframe {
-      height: 380px;
-      width: 50%;
-      box-sizing: border-box;
-      float: right;
-      border: 3px solid #FFF; }
-      @media (max-width: 768px) {
-        section.contact .content .map iframe {
-          width: 100%;
-          margin-top: 20px; } }
+section.contact .content {
+  max-width: 100%; }
+  section.contact .content h3 {
+    color: #999;
+    font-size: .75em; }
+  section.contact .content .details {
+    color: #333;
+    width: 50%;
+    float: left;
+    padding: 0 30px 20px 0;
+    box-sizing: border-box; }
+    @media all and (max-width: 768px) {
+      section.contact .content .details {
+        width: 100%; } }
+  section.contact .content .map iframe {
+    height: 380px;
+    width: 50%;
+    box-sizing: border-box;
+    float: right;
+    border: 3px solid #FFF; }
+    @media (max-width: 768px) {
+      section.contact .content .map iframe {
+        width: 100%;
+        margin-top: 20px; } }
 
-.faqs {
-  background: #F6F6F6; }
-  .faqs ol {
-    margin-left: 1rem;
-    margin-bottom: 1.3rem; }
-  .faqs h1 {
-    margin: 1rem 0 .2rem; }
+.faqs ol {
+  margin-left: 1rem;
+  margin-bottom: 1.3rem; }
+
+.faqs h1 {
+  margin: 1rem 0 .2rem; }
 
 section.register {
   background: #fff;
