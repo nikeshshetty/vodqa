@@ -98,7 +98,7 @@ h2 {
   line-height: 1.25em; }
 
 a {
-  color: rgba(17, 121, 170, 0.95);
+  color: #0578BE;
   text-decoration: none; }
 
 .navigator {
@@ -121,12 +121,12 @@ a {
     margin: 9px 1em;
     border-radius: 4px;
     background: transparent;
-    border: rgba(17, 121, 170, 0.95) solid 2px; }
+    border: #0578BE solid 2px; }
     .navigator .navigation-toggle hr {
       height: 2px;
       margin: 3px 0;
       width: 15px;
-      background: rgba(17, 121, 170, 0.95);
+      background: #0578BE;
       border: 0; }
     @media all and (max-width: 768px) {
       .navigator .navigation-toggle {
@@ -168,7 +168,7 @@ a {
       padding: 0.3em; }
       .navigator ul li a {
         text-decoration: none;
-        color: rgba(17, 121, 170, 0.95);
+        color: #0578BE;
         padding: .15em .5em; }
       .navigator ul li a.current {
         border-bottom: 2px #CCC solid; }
@@ -235,9 +235,10 @@ section.invite {
     text-align: center;
     padding: 0; }
   section.invite .box {
-    background: rgba(0, 0, 0, 0.70);
+    background: rgba(34, 34, 34, 0.75);
     text-align: center;
     float: right;
+    margin: 3em 2em;
     padding: 4em;
     color: #FFF; }
     @media all and (max-width: 768px) {
@@ -289,7 +290,7 @@ section.invite {
           font-size: 15px;
           vertical-align: middle; }
       section.invite .box .btn.submit-talk, section.invite .box .btn.participate {
-        background: #00AA5A;
+        background: #427b5b;
         margin-bottom: .5rem;
         display: block; }
       @media all and (max-width: 480px) {
@@ -358,21 +359,24 @@ section.theme .content {
     line-height: 1.4em;
     font-weight: 100; }
 
-section.agenda {
-  background: rgba(17, 121, 170, 0.95); }
-  section.agenda h2 {
-    color: #ddd; }
-  section.agenda p {
-    font-size: 20px;
-    margin-top: 1em;
-    color: #ddd; }
-  section.agenda .track .topic {
-    font-size: 1.5em;
-    font-weight: 200; }
-  section.agenda .track .speaker {
-    font-size: 1em;
-    font-style: italic;
-    line-height: 2.5em; }
+section.agenda .content {
+  background: #0578BE;
+  padding: 1em;
+  box-sizing: border-box; }
+
+section.agenda p {
+  font-size: 20px;
+  margin-top: 1em;
+  color: #ddd; }
+
+section.agenda .track .topic {
+  font-size: 1.5em;
+  font-weight: 200; }
+
+section.agenda .track .speaker {
+  font-size: 1em;
+  font-style: italic;
+  line-height: 2.5em; }
 
 .tracks {
   overflow: hidden;
@@ -657,7 +661,7 @@ section.register .mktoForm {
       border: 1px solid rgba(0, 0, 0, 0.2);
       background: #fff; }
       section.register .mktoForm .mktoFormRow input[type="text"]:focus, section.register .mktoForm .mktoFormRow input[type="email"]:focus, section.register .mktoForm .mktoFormRow input[type="tel"]:focus, section.register .mktoForm .mktoFormRow textarea:focus, section.register .mktoForm .mktoFormRow select:focus {
-        outline-color: rgba(17, 121, 170, 0.95);
+        outline-color: #0578BE;
         outline-offset: -2;
         outline-width: 2px; }
       @media all and (max-width: 480px) {
@@ -689,7 +693,7 @@ section.register .mktoForm {
           section.register .mktoForm .mktoButtonRow .mktoButtonWrap.mktoSimple.actions {
             margin-left: 16em; } }
       section.register .mktoForm .mktoButtonRow .mktoButtonWrap.mktoSimple .mktoButton {
-        background: rgba(17, 121, 170, 0.95);
+        background: #0578BE;
         box-shadow: 0 2px 2px 0 #265e7f;
         font-weight: 100;
         border-radius: 2px;
@@ -752,7 +756,7 @@ section.register .mktoForm {
     background-color: #b3b3b3;
     border-radius: .5em; }
     #editions .editions a:hover, #editions .editions a.active {
-      background-color: rgba(17, 121, 170, 0.95); }
+      background-color: #0578BE; }
     #editions .editions a .month {
       color: #FFF;
       line-height: 1.5em;
