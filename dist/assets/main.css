@@ -200,7 +200,7 @@ section.header {
         display: block;
         text-align: center; } }
     section.header .logo img {
-      max-width: 10em; }
+      max-width: 33em; }
   section.header .caption {
     float: right;
     color: #999;
