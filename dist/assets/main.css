@@ -290,7 +290,7 @@ section.invite {
           font-size: 15px;
           vertical-align: middle; }
       section.invite .box .btn.submit-talk, section.invite .box .btn.participate {
-        background: #427b5b;
+        background: #00AA5A;
         margin-bottom: .5rem;
         display: block; }
       @media all and (max-width: 480px) {
@@ -403,7 +403,7 @@ section.agenda .track .session .time {
   text-align: right;
   width: 200px;
   margin-right: 20px;
-  color: rgba(17, 121, 170, 0.95); }
+  color: #0578BE; }
   @media all and (max-width: 768px) {
     section.agenda .track .session .time {
       float: none;
