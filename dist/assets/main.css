@@ -235,10 +235,9 @@ section.invite {
     text-align: center;
     padding: 0; }
   section.invite .box {
-    background: rgba(34, 34, 34, 0.75);
+    background: rgba(0, 0, 0, 0.70);
     text-align: center;
     float: right;
-    margin: 3em 2em;
     padding: 4em;
     color: #FFF; }
     @media all and (max-width: 768px) {
