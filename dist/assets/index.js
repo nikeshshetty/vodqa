@@ -1,10 +1,6 @@
 $(document).ready(function($) {
-  var headerHeight, paraPositions;
-  paraPositions = [];
+  var headerHeight;
   headerHeight = 123;
-  $('.content.para').each(function() {
-    return paraPositions.push($(this).offset().top);
-  });
   $('a').click(function() {
     window.scrolling = true;
     $('html, body').animate({
@@ -23,9 +19,8 @@ $(document).ready(function($) {
     if (window.scrolling) {
       return;
     }
-    currentScrollTop = $(document).scrollTop();
-    currentParaIndex = Math.max(0, paraPositions.filter(function(p) {
-      return p < currentScrollTop + headerHeight;
+    currentParaIndex = Math.max(0, Array.from( document.querySelectorAll('.sectionEl')).filter(function(el) {
+      return ($(el).offset().top - $(window).scrollTop()) < $(el).height();
     }).length - 1);
     $('ul li a').removeClass('current');
     return $('ul li a:eq(' + currentParaIndex + ')').addClass('current');
