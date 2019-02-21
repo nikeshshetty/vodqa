@@ -847,6 +847,7 @@ table td.r, table th.r {
   font-weight: bold;
   vertical-align: middle;
   text-align: center;
+  background: #0578BE
 }
 
 tbody tr:nth-child(even) {
