@@ -5,7 +5,6 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pr
   border: 0;
   outline: 0;
   font-size: 100%;
-  vertical-align: baseline;
   background: transparent; }
 
 body {
@@ -27,7 +26,6 @@ a {
   margin: 0;
   padding: 0;
   font-size: 100%;
-  vertical-align: baseline;
   background: transparent; }
 
 ins {
@@ -845,7 +843,9 @@ table td.r, table th.r {
   font-size: 18px;
   color: #fff;
   line-height: 1.2;
-  font-weight: unset;
+  font-weight: bold;
+  vertical-align: middle;
+  text-align: center;
 }
 
 tbody tr:nth-child(even) {
@@ -866,7 +866,7 @@ tbody tr:hover {
 }
 
 .column1 {
-  width: 260px;
+  width: 60px;
   padding-left: 40px;
 }
 
@@ -875,23 +875,13 @@ tbody tr:hover {
 }
 
 .column3 {
-  width: 245px;
+  width: 160px;
+  padding-left: 30px
 }
 
 .column4 {
-  width: 110px;
-  text-align: right;
-}
-
-.column5 {
-  width: 170px;
-  text-align: right;
-}
-
-.column6 {
-  width: 222px;
-  text-align: right;
-  padding-right: 62px;
+  width: 160px;
+  text-align: center;
 }
 
 
