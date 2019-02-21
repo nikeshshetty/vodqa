@@ -869,15 +869,18 @@ tbody tr:hover {
   width: 60px;
   padding-left: 40px;
   font-weight: bold;
+  text-align: center;
 }
 
 .column2 {
   width: 160px;
+  text-align: center;
 }
 
 .column3 {
   width: 160px;
-  padding-left: 30px
+  padding-left: 30px;
+  text-align: center;
 }
 
 .column4 {
@@ -930,18 +933,10 @@ tbody tr:hover {
     content: "Track 3";
   }
 
-  .column4,
-  .column5,
-  .column6 {
-    text-align: left;
-  }
-
-  .column4,
-  .column5,
-  .column6,
   .column1,
   .column2,
-  .column3 {
+  .column3,
+  .column4 {
     width: 100%;
   }
 
