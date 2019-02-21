@@ -785,7 +785,6 @@ section.footer p {
 .container-table100 {
   width: 100%;
   min-height: 100vh;
-  background: #c850c0;
 
   display: -webkit-box;
   display: -webkit-flex;
