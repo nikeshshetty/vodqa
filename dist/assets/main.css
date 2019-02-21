@@ -827,6 +827,7 @@ table tbody tr:last-child {
 }
 table td, table th {
   text-align: left;
+  line-height: 1.5em
 }
 table td.l, table th.l {
   text-align: right;
