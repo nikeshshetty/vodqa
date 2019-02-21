@@ -870,6 +870,7 @@ tbody tr:hover {
 .column1 {
   width: 60px;
   padding-left: 40px;
+  font-weight: bold;
 }
 
 .column2 {
