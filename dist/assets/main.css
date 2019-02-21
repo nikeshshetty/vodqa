@@ -811,6 +811,7 @@ table {
 }
 table * {
   position: relative;
+  line-height: 1.5px
 }
 table td, table th {
   padding-left: 8px;
