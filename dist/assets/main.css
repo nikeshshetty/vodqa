@@ -822,7 +822,6 @@ table tbody tr {
   height: 50px;
 }
 table tbody tr:last-child {
-  border: 0;
 }
 table td, table th {
   text-align: left;
