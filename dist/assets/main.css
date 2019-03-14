@@ -1026,6 +1026,15 @@ section.register .mktoForm .mktoButtonRow .tag {
     text-transform: none;
 }
 
+section.register .disclaimer {
+    display: inline-block;
+    overflow: hidden;
+    text-align: initial;
+    white-space: nowrap;
+    font-size: 100%;
+    color: red;
+}
+
 #customFormQuestionCareerOpportunities {
     margin: 10px 0 0 5px;
 }
