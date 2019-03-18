@@ -1033,6 +1033,7 @@ section.register .disclaimer {
     white-space: nowrap;
     font-size: 100%;
     color: black;
+    font-weight: 500;
 }
 
 #customFormQuestionCareerOpportunities {
